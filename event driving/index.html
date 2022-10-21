@@ -1,0 +1,112 @@
+<!--Skylar Baumgartner-->
+<!--this is to tell the document what to expect-->
+<!DOCTYPE html>
+<!--need to set the document type-->
+<html>
+<!--this is the section that says what will be displayed, so style, titles, etc...-->
+<head>
+    <!--the title is the area in the tab-->
+    <title> UAT Space Program! </title>
+    <!--beginning of style-->
+    <style>
+        /*this is the background design*/
+        body {
+            background-image: url("space\ center.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color:rgb(255, 255, 255);
+            text-align: center;
+        }
+        /*style of the buttons on the page*/
+        input[type=submit] {
+            /*background color of the button, I chose green to signify start*/
+            background-color: #88ffa6;
+            /*this is the border of the button to make it stand out from the rest of the page*/
+            border: outset;
+            /*this is the color of the font*/
+            color: rgb(0, 0, 0);
+            /*padding- the area around the button*/
+            padding: 8px 15px;
+            /*we chose no decoration for the button*/
+            text-decoration: none;
+            /*the area around the button*/
+            margin: 4px 2px;
+            /*what reacts to the button*/
+            cursor: pointer;
+            /*align the text to the center of the button*/
+            text-align: center;
+        }
+        /*style of the buttons on the page*/
+        /*for 2 buttons that say something else on pop-up, I had to change the type to "proceed" instead of "submit"*/
+        input[type=button] {
+            /*background color of the button, I chose red to signify stop*/
+            background-color: #f78484;
+            /*this is the border of the button to make it stand out from the rest of the page*/
+            border: outset;
+            /*this is the color of the font*/
+            color: rgb(0, 0, 0);
+            /*padding- the area around the button*/
+            padding: 8px 15px;
+            /*we chose no decoration for the button*/
+            text-decoration: none;
+            /*the area around the button*/
+            margin: 4px 2px;
+            /*what reacts to the button*/
+            cursor: pointer;
+            /*align the text to the center of the button*/
+            text-align: center;
+        }
+        /*This is for a border! we are adding it for a little bit of color at the top and bottom of the page*/
+        p.five {
+            /*this is the style we want*/
+            border-style: solid;
+            /*This is the size from top to bottom of the border*/
+            border-radius: 12px;
+            /*this is the padding on the inside of the border*/
+            padding: 5px;
+            /*how big we want the border*/
+        border-width: 6px;
+        /*color of our border*/
+    border-color: rgb(97, 223, 255);}
+        /*end of style*/
+    </style>
+    <!--end of the head-->
+</head>
+<!--start of the body, what is in the actual page-->
+<body>
+    <p class="five"></p>
+    <!--break-->
+    <br /><br /><br />
+    <!--break-->
+    <br /><br /><br />
+    <!--break-->
+    <br /><br /><br />
+    
+    <!--the header to the page-->
+    <h1> WELCOME, SPACE STAR!!! </h1> 
+    <!--this is below the header but has a bigger size than the paragraph size-->
+    <h2> You made it passed the system check- Now we must start our program. </h2>
+    <!--break-->
+    <br /><br /><br />
+    <!--this is below the header but has a bigger size than the paragraph size-->
+    <h2>Remember to stop it once you are done! </h2>
+    <!--break-->
+    <br /><br /><br />
+    <!--break-->
+    <br /><br /><br />
+    <!--this is the call for the button that was created above with the event code to bring a pop-in that says "started program" -->
+    <input type="submit" value="START PROGRAM" onclick="alert ('Started Program: Good job, Space Star!')">
+    <!--break-->
+    <br /><br /><br />
+    <!--this is the call for the button that was created above with the event code to bring a pop-in that says "stopped program" -->
+    <input type="button" value="STOP PROGRAM" onclick="alert ('Stopped Program: good job remembering, Space Star!')">
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <img src="https://cdn.dribbble.com/users/1702717/screenshots/4078075/ezgif.com-video-to-gif__6_.gif"> <img src="https://www.gifcen.com/wp-content/uploads/2022/04/stitch-gif-5.gif">
+    <br /><br /><br />
+    <p class="five"></p>
+    <!--end of body-->
+</body>
+<!--end of page-->
+</html>
